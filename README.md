@@ -6,7 +6,7 @@ Create an original story using the elements that are displayed randomly in the O
 )](https://developer.apple.com/iphone/index.action)
 [![Swift 5](https://img.shields.io/badge/Swift-5-orange.svg?style=flat)](https://developer.apple.com/swift/) 
 
-![picture](Resources/landing.gif | width=160)
+![picture](Resources/landing.gif)
 
 ![picture](Resources/refresh.gif)
 
