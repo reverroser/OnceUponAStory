@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B095E1E22DCD584001705C7 /* landing.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8B095E1C22DCD584001705C7 /* landing.gif */; };
+		8B095E1F22DCD584001705C7 /* refresh.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8B095E1D22DCD584001705C7 /* refresh.gif */; };
 		8B71C04F22DBABF900D0255C /* StoryElementsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B71C04E22DBABF900D0255C /* StoryElementsViewController.swift */; };
 		8B71C05122DBAFB600D0255C /* StoryElementsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B71C05022DBAFB600D0255C /* StoryElementsModel.swift */; };
 		8BCEFABA22D3B066009745B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCEFAB922D3B066009745B9 /* AppDelegate.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8B095E1C22DCD584001705C7 /* landing.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = landing.gif; sourceTree = "<group>"; };
+		8B095E1D22DCD584001705C7 /* refresh.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = refresh.gif; sourceTree = "<group>"; };
 		8B71C04E22DBABF900D0255C /* StoryElementsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryElementsViewController.swift; sourceTree = "<group>"; };
 		8B71C05022DBAFB600D0255C /* StoryElementsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryElementsModel.swift; sourceTree = "<group>"; };
 		8B71C05422DC9FCE00D0255C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -40,6 +44,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8B095E1722DCD40F001705C7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8B095E1C22DCD584001705C7 /* landing.gif */,
+				8B095E1D22DCD584001705C7 /* refresh.gif */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		8B71C04822DBA8AE00D0255C /* Controller */ = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +91,7 @@
 		8BCEFAAD22D3B066009745B9 = {
 			isa = PBXGroup;
 			children = (
+				8B095E1722DCD40F001705C7 /* Resources */,
 				8B71C05422DC9FCE00D0255C /* README.md */,
 				8BCEFAB822D3B066009745B9 /* onceUponAStory */,
 				8BCEFAB722D3B066009745B9 /* Products */,
@@ -162,6 +176,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B095E1E22DCD584001705C7 /* landing.gif in Resources */,
+				8B095E1F22DCD584001705C7 /* refresh.gif in Resources */,
 				8BCEFAC422D3B066009745B9 /* LaunchScreen.storyboard in Resources */,
 				8BCEFAC122D3B066009745B9 /* Assets.xcassets in Resources */,
 				8BCEFABF22D3B066009745B9 /* Main.storyboard in Resources */,
